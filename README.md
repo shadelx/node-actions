@@ -6,9 +6,8 @@ This is a simple Express.js server that responds with a "Hello World" message. I
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Unit Tests](#unit-tests)
-- [CI/CD with GitHub Actions](#cicd-with-github-actions)
 - [License](#license)
+- [Environment](#environment)
 
 ## Installation
 
@@ -17,8 +16,8 @@ To get started with this project, you need Node.js and npm installed on your mac
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simple-express-server.git
-   cd simple-express-server
+   git clone https://github.com/shadelx/node-actions.git
+   cd node-actions
    ```
 
 2. Install the dependencies:
@@ -45,7 +44,7 @@ To get started with this project, you need Node.js and npm installed on your mac
 
    This will run Jest tests to ensure the server is working as expected.
 
-## Define environments KEYS
+## Environment
 
 You need to define the different environments variables in a .env file accordantly
 
@@ -63,7 +62,3 @@ MESSAGE="Hello from Development"
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify it according to your specific setup!
